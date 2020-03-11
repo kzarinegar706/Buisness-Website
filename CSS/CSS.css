@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(138, 255, 123);
+}
+.background{
+    background-color: rgb(253, 177, 78);
+    margin-top: -8px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80em;
+    height: 70em;
+    z-index: 2;
+    border-radius: 30px 30px 20px 20px;
+}
+.navBackground{
+    background-color: orange;
+    position: absolute;
+    top: 0px;
+    left: 7.5em;
+    width: 80em;
+    height: 12em;
+    z-index: 3;
+    border-bottom: solid 2px rgb(243, 159, 2);
+    border-radius: 30px 30px 20px 20px;
+}
+.palm{
+    position: absolute;
+    top: 10px;
+    left: 10em;
+    height: 10em;
+    width: 10em;
+    z-index: 3;
+}
+
+.rainbow{
+    position: absolute;
+    top: 0px;
+    left: 5em;
+    z-index: 3;
+    font-size: 500%;
+    animation: rainbow 5s linear;
+    animation-iteration-count: infinite;
+}
+@keyframes rainbow{
+    0%,100%{
+        color: red;
+    }
+    20%{
+        color: green;
+    }
+    40%{
+        color: blue;
+    }
+    60%{
+        color: yellow;
+    }
+    80%{
+        color: purple;
+    }
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+}
